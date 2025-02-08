@@ -7,7 +7,7 @@ document.getElementById('btn-login').addEventListener('click',function(event){
 
     if(phoneNumber === 1234 && PinNumber === 1234){
         console.log('You are logged in.');
-        window.location.href = '/home.html'
+        window.location.href = '/Payoo-Mobile-bank-project/home.html'
     }
     else{
         alert('Failed to logged in! Please try again.')
